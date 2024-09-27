@@ -2,7 +2,7 @@
 /*****************************************************************************************/
 `default_nettype none
 
-`define UART_CNT 100  // UART TX wait count, 100MHz / 100 = 1Mbaud
+`define UART_CNT 100  // UART wait count, 100MHz / 100 = 1Mbaud
 /*****************************************************************************************/
 module m_uart_tx (
     input  wire       w_clk,     // 100MHz clock signal
