@@ -53,8 +53,8 @@ endmodule
 /*****************************************************************************************/
 module m_main (
     input  wire  w_clk,       // 100MHz clock signal
-    input  wire  w_uart_rx,   // UART rx, data line from PC -> FPGA
-    output wire  w_uart_tx,   // UART tx, data line from FPGA -> PC
+    input  wire  w_uart_rx,   // UART rx, data line from PC to FPGA
+    output wire  w_uart_tx,   // UART tx, data line from FPGA to PC
     output wire  [3:0] w_led  // LED
 );
     reg [31:0] r_cnt = 0;
